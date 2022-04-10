@@ -1,0 +1,107 @@
+:root {
+    --white: #FFFFFF;
+    --black: #262626;
+    --very-light-pink: #C7C7C7;
+    --text-input-field: #F7F7F7;
+    --hospital-green: #ACD9B2;
+    --blue-in: #227193;
+    --semi-black: rgb(58, 58, 58);
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+}
+
+h2{
+    margin: 0;
+}
+
+h1{
+    color: #F7F7F7;
+    margin-top: 20px;
+}
+
+.container{
+    width: 700px;
+    color: var(--black);
+    text-align: center;
+}
+
+header{
+    text-align: center;
+}
+
+p{
+    margin: 8px;
+    color: #F7F7F7;
+}
+
+header p{
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.container-forms{
+    display: flexbox;
+}
+
+.cuadrado, .triangulo, .circulo{
+    width: 100%;
+    border:  1px solid var(--black);
+    border-radius: 20px;
+    margin: 10px;
+    padding: 10px;
+    padding-bottom: 18px;
+    color: #F7F7F7;
+    background-color: #363636;
+}
+
+.inputs{
+    margin: 8px;
+}
+
+label { 
+    display: inline-block;
+    width: 100%;
+}
+
+.triangulo label{
+    width: 60px;
+}
+
+input{
+    border-radius: 5px;
+    border: none;
+    height: 25px;
+    text-align: center;
+}
+
+button{
+    border-radius: 5px;
+    border: 1px solid #F7F7F7;
+    background-color: #363636;
+    color: #F7F7F7;
+    font-size: var(--sm);
+    font-weight: bold;
+    height: 30px;
+}
+
+button:hover{
+    background-color: #F7F7F7;
+    color: #363636;
+    cursor: pointer;
+}
+
+.res {
+    font-weight: bold;
+    color: var(--very-light-pink);
+}
+
+
