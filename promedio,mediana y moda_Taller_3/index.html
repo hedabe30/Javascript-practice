@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <title>Promedios</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <header>
+            <h1>CALCULA LOS PROMEDIOS DE TUS LISTAS</h1>
+            <p>Agrega la lista que desees </p>
+        </header>
+        <div class="container">
+            <form action="">
+                <label for="datoDeLista">Agregar dato de la lista</label>
+                <input type="number" class="dato-de-lista" id="datoDeLista">
+                <div>
+                    <button type="button" onclick="creacionLista()">Agregar</button>
+                    <button type="button" onclick="borrarLista()">Borrar</button>
+                </div>
+                <textarea id="lista" rows="6" cols="30" readonly></textarea>
+                <div>
+                    <button type="button" onclick="calcular()">Calcular</button>
+                </div>
+            </form>
+        </div>
+        <section>
+            <h2>Promedio</h2>
+            <p class="" id="muestra-promedio"></p>
+    
+        </section>
+        <section>
+            <h2>Mediana</h2>
+            <p class="" id="muestra-mediana"></p>
+    
+        </section>
+        <section>
+            <h2>Moda</h2>
+            <p class="" id="muestra-moda"></p>
+        </section>
+    </div>
+    <script src="total.js"></script>
+</body>
+</html>
